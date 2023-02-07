@@ -1,0 +1,25 @@
+header{
+    background-color: #fff;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+  }
+  a{
+    color: #fc8019;
+  }
+  a:hover{
+    color: #fff;
+    background-color: #fc8019 ;
+  }
+  a.logo{
+   font-weight: bold;
+  }
+  .container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul li a {
+    padding: 1em;
+    display: inline-block;
+  }
+  

@@ -1,0 +1,28 @@
+.searchBox{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-self: end;
+    margin-bottom: 36px;
+    margin-top: 12px;
+    margin-right: 12rem;
+}
+::placeholder{
+    color: #fc8019;
+}
+button{
+    position: absolute;
+    right: 2px;
+    width:4rem;
+    height:2rem;
+    font-size: 16px;
+    border-radius: 10%;
+    margin-right: 11rem;
+    background-color: #fc8019;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBox input:hover{
+    border-radius: 1px solid #fc8019;
+}
