@@ -1,23 +1,25 @@
-<div class="container">
-   
-    <ul>
-        <li *ngFor="let food of foods">
-            <a href=""><img src="{{food.imageUrl}}" alt="food1">
-            <div class="content">
-                <div class="name">
-                  Name:  {{food.name}}
-                </div>
-                <span class="favourite {{food.favourite?'':'not'}}" >Favourite: ❤</span>
-                <div class="product-item-footer">
-                    <span *ngFor="let origin of food.origins">  {{origin}},</span>
-                </div>
-                <div class="food-tags">
-                    <span *ngFor="let tag of food.tags"> {{tag}},</span>
-                </div>
-                <div class="food-price">
-                    <span>{{food.price  | currency:'INR':'symbol'}}</span>
-                </div>
-            </div></a>
-        </li>
-    </ul>
+<div class="homeBody">
+    <div class="container">
+        <ul>
+            <li *ngFor="let food of foods">
+                <a routerLink="/food/{{food.id}}">
+                    <img src="{{food.imageUrl}}" alt="food1">
+                <div class="content">
+                    <div class="name">
+                      Name:  {{food.name}}
+                    </div>
+                    <span class="favourite {{food.favourite?'':'not'}}" >Favourite: ❤</span>
+                    <div class="product-item-footer">
+                        <span *ngFor="let origin of food.origins">  {{origin}},</span>
+                    </div>
+                    <div class="food-tags">
+                        <span *ngFor="let tag of food.tags"> {{tag}},</span>
+                    </div>
+                    <div class="food-price">
+                        <span>{{food.price  | currency:'INR':'symbol'}}</span>
+                    </div>
+                </div></a>
+            </li>
+        </ul>
+    </div>
 </div>

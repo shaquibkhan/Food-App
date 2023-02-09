@@ -18,6 +18,9 @@ export class HomeComponent {
       if(params['searchItem']){
         this.foods = this.foodSrvc.getAll().filter(food=> food.name.toLocaleLowerCase().includes(params['searchItem'].toLowerCase()))
       }
+      else if(params['tag']){
+        this.foods = this.foodSrvc.getAllFoodByTag(params['tag'])
+      }
       else 
       {this.foods = this.foodSrvc.getAll()}
     })

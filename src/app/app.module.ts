@@ -12,6 +12,9 @@ import { HomeComponent } from './home/home.component';
 import { SearchPipe } from './search.pipe'
 import { FormsModule } from '@angular/forms';
 import { SearchComponent } from './search/search.component';
+import { TagComponent } from './tag/tag.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { FoodPageComponent } from './food-page/food-page.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { SearchComponent } from './search/search.component';
     HeaderComponent,
     HomeComponent,
     SearchPipe,
-    SearchComponent
+    SearchComponent,
+    TagComponent,
+    CartPageComponent,
+    FoodPageComponent
   ],
   imports: [
     BrowserModule,

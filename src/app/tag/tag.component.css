@@ -1,0 +1,13 @@
+div a{
+    color: #fc8019;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}

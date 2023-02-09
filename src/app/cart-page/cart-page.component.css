@@ -1,0 +1,13 @@
+ul li{
+    text-decoration: none;
+    color: #fc8019;
+    list-style-type: none;
+}
+img{
+    width:300px;
+    height:250px;
+    border-radius: 10%;
+ }
+ h2{
+    margin-top: 1rem;
+ }

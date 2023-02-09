@@ -15,8 +15,9 @@
 body{
   margin: 0px;
   font-size: 18px;
+  font-weight: bold;
   font-family: Quicksand, sans-serif;
-  background-color: #fcfbfc;
+  background-color: #f2f3f4;
 }
 a{
   text-decoration: none;

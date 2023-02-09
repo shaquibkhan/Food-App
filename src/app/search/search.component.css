@@ -6,6 +6,10 @@
     margin-bottom: 36px;
     margin-top: 12px;
     margin-right: 12rem;
+    /* background-color: #f2f3f4; */
+}
+input{
+    background-color: #fdfff5  ;
 }
 ::placeholder{
     color: #fc8019;
