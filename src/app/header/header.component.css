@@ -19,7 +19,12 @@ header{
     justify-content: space-between;
   }
   nav ul li a {
-    padding: 1em;
+    /* padding: 1em; */
     display: inline-block;
+
+  }
+
+  ul li {
+    list-style-type: none;
   }
   
